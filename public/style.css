@@ -1,0 +1,23 @@
+/* public/style.css - Frontend CSS */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+canvas {
+    border: 2px solid black;
+    cursor: crosshair;
+}
+div {
+    margin-top: 10px;
+}
+
+/* added */
+#whiteboard {
+    border: 1px solid black;
+  }
